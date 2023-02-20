@@ -6,8 +6,7 @@ const MessageSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "user",
       required: true,
-    },
-    socketId:{type:String}
+    }
     },
   {
     timestamps: true,
